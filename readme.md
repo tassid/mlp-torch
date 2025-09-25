@@ -7,10 +7,11 @@ o objetivo é mostrar um exemplo claro, curto e fácil de adaptar para outros da
 
 ## arquivos
 
-- `bc_mlp_fullbatch_best.py` → versão principal (full-batch, ~150 épocas, 98–99% de acurácia).  
-- `bc_mlp_min.py` → versão mínima (poucas linhas, sem validação).  
-- `bc_mlp_min_tuned.py` → versão com validação, scheduler e early stopping.
+- `max.py` → versão principal (full-batch, ~150 épocas, 98–99% de acurácia).  
+- `min.py` → versão mínima (poucas linhas, sem validação).  
+- `min_early.py` → versão com validação, scheduler e early stopping.
 
+todo: tem early stopping mesmo??
 ---
 
 ## requisitos
